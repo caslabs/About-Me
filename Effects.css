@@ -1,1 +1,25 @@
-Lol
+.font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-image: url(http://img10.deviantart.net/1928/i/2010/189/4/b/rubik__s_wallpaper_by_faybro.png);
+    margin-left: 0
+}
+
+#mainbox {
+    background-color: rgba(124,94,222,0.6);
+    width: 30em;
+    height:auto;
+    padding-left: 3em;
+    margin-top: 50px;
+    color:#B8CBD1;
+    border-top-right-radius: 20px
+    
+}
+
+p {
+    font-size: 20px
+}
+
+
