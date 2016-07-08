@@ -12,17 +12,14 @@ body {
     width: 30em;
     height:auto;
     padding-left: 3em;
-<<<<<<< HEAD
     margin: 0;
-=======
-    margin: 0 auto;
->>>>>>> origin/master
     color:#B8CBD1;
-    border-radius: 20px
+    border-top-right-radius: 20px
     
 }
 
-p {    font-size: 20px;
+p {    
+    font-size: 20px;
     padding:10px
 }
 
