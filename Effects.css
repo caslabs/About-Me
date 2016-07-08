@@ -12,9 +12,9 @@ body {
     width: 30em;
     height:auto;
     padding-left: 3em;
-    margin-top: 50px;
+    margin: 0 auto;
     color:#B8CBD1;
-    border-top-right-radius: 20px
+    border-radius: 20px
     
 }
 
