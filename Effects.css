@@ -45,7 +45,7 @@ h1 {
     font-size: 15px;
     text-align: center
 }
-<<<<<<< HEAD
+
 
 #wow {
 	background-color:chocolate;
@@ -54,9 +54,10 @@ h1 {
 	position: relative;
 	float:right;
 	bottom: 60em
-=======
-#Background_music{
+}
+
+#Background_music {
     display:none;
->>>>>>> origin/master
+	align-content: center;
 }
 
