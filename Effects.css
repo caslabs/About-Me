@@ -55,7 +55,11 @@ h1 {
 	float:right;
 	bottom: 60em
 }
-
+#gnome{
+	position:fixed;
+	bottom: -10px;
+	left: 10px;
+}
 #Background_music {
     display:none;
 	align-content: center;
