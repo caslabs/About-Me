@@ -46,7 +46,6 @@ h1 {
     text-align: center
 }
 
-
 #wow {
 	background-color:chocolate;
 	width:20em;
@@ -54,14 +53,5 @@ h1 {
 	position: relative;
 	float:right;
 	bottom: 60em
-}
-#gnome{
-	position:fixed;
-	bottom: -1px;
-	left: 10px;
-}
-#Background_music {
-    display:none;
-	align-content: center;
 }
 
