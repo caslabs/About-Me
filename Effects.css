@@ -57,7 +57,7 @@ h1 {
 }
 #gnome{
 	position:fixed;
-	bottom: -1px;
+	bottom: 0px;
 	left: 10px;
 }
 #Background_music {
