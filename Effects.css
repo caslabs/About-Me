@@ -48,12 +48,12 @@ h1 {
 
 
 #wow {
-	background-color:chocolate;
-	width:13em;
-	height:auto;
+	opacity: 100%;
+	height: auto;
 	position: relative;
 	float:right;
-	bottom: 60em
+	bottom: 75em;
+	color:antiquewhite
 }
 #gnome{
 	position:fixed;
@@ -63,5 +63,10 @@ h1 {
 #Background_music {
     display:none;
 	align-content: center;
+}
+
+#datboi {
+	height: 9em;
+	 
 }
 
