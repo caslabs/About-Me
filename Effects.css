@@ -6,8 +6,10 @@ body {
     background-image:url(officialbackground.jpg);
     margin-left: 0;
     background-attachment: fixed;
-    width:100%
-    object-fit: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #mainbox {
