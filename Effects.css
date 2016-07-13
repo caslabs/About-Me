@@ -6,6 +6,8 @@ body {
     background-image:url(officialbackground.jpg);
     margin-left: 0;
     background-attachment: fixed;
+    width:100%
+    object-fit: cover;
 }
 
 #mainbox {
@@ -50,6 +52,7 @@ h1 {
 #project {
 	height: auto;
     width:55%;
+    max-width: 55%;
 	position: relative;
 	float:right;
 	bottom: 73em;
