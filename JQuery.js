@@ -1,1 +1,1 @@
-//need some ideas first
+//need ideas
