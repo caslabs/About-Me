@@ -1,5 +1,1 @@
-$(document).ready(function(){ 
-    $("#datboi").click(function(){ 
-    $( this ).hide();
-    });
-});
+//need some ideas first

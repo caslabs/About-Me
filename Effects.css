@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(http://img10.deviantart.net/1928/i/2010/189/4/b/rubik__s_wallpaper_by_faybro.png);
+    background-image:url(officialbackground.jpg);
     margin-left: 0;
     background-attachment: fixed;
 }
@@ -47,13 +47,14 @@ h1 {
 }
 
 
-#wow {
-	opacity: 100%;
+#project {
 	height: auto;
+    width:55%;
 	position: relative;
 	float:right;
-	bottom: 75em;
-	color:antiquewhite
+	bottom: 73em;
+	background-color: rgba(124,94,222,0.7);
+    text-align: center;
 }
 #gnome{
 	position:fixed;
@@ -63,13 +64,4 @@ h1 {
 #Background_music {
     display:none;
 	align-content: center;
-}
-
-#datboi {
-	height: 9em;
-	 
-}
-
-.click {
-	float:right;
 }
