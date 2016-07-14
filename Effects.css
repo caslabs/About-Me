@@ -6,15 +6,12 @@ body {
     background-image:url(officialbackground.jpg);
     margin-left: 0;
 	background-attachment: fixed;
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background-size: 90% 100%;
 }
 
 #mainbox {
     background-color: rgba(124,94,222,0.6);
-    width: 30em;
+    width: 40%;
     height:auto;
     padding-left: 3em;
     margin: 0;
@@ -53,13 +50,15 @@ h1 {
 
 #project {
 	height: auto;
-    width:55%;
-    max-width: 55%;
-	position: relative;
+	max-width: 100%;
+	position: absolute;
 	float:right;
-	bottom: 73em;
+	top:0;
+	right:0;
 	background-color: rgba(124,94,222,0.7);
     text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#B8CBD1;
 }
 #gnome{
 	position:fixed;
@@ -70,3 +69,40 @@ h1 {
     display:none;
 	align-content: center;
 }
+
+/* Retina display */
+@media screen and (min-width: 1024px){
+    body{
+        background-image: url(officialbackground.jpg);
+    }
+	
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .body{
+        background-image: url(officialbackground.jpg);
+    }
+	
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    body{
+        background-image: url(officialbackground.jpg);
+    }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    body{
+        background-image: url(officialbackground.jpg);
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    body{
+        background-image: url(officialbackground.jpg);
+    }
+} 
