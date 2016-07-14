@@ -75,7 +75,7 @@ h1 {
 /* Retina display */
 @media screen and (min-width: 1024px){
     body{
-        background-image: url(officialbackground.jpg);
+        background-image: url(BGPicture/retina/retinadisplay.jpg);
     }
 	
 }
@@ -83,7 +83,7 @@ h1 {
 /* Desktop */
 @media screen and (min-width: 980px) and (max-width: 1024px){
     .body{
-        background-image: url(officialbackground.jpg);
+        background-image: url(BGPicture/desktop/DesktopView.jpg);
     }
 	
 }
@@ -91,20 +91,20 @@ h1 {
 /* Tablet */
 @media screen and (min-width: 760px) and (max-width: 980px){
     body{
-        background-image: url(officialbackground.jpg);
+        background-image: url(BGPicture/tablet/TabletDisplay.jpg);
     }
 }
 
 /* Mobile HD */
 @media screen and (min-width: 350px) and (max-width: 760px){
     body{
-        background-image: url(officialbackground.jpg);
+        background-image: url(BGPicture/mobile/mobileView.jpg);
     }
 }
 
 /* Mobile LD */
 @media screen and (max-width: 350px){
     body{
-        background-image: url(officialbackground.jpg);
+        background-image: url(BGPicture/mobile/mobileView.jpg);
     }
 } 
