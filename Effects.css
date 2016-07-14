@@ -14,16 +14,18 @@ body {
     width: 40%;
     height:auto;
     padding-left: 3em;
-    margin: 0;
+	margin: 0;
     color:#B8CBD1;
     border-top-right-radius: 20px;
+	margin-top: 7%;
 
     
 }
 
 p {    
     font-size: 20px;
-    padding:10px
+    padding:10px;
+	line-height: 30px;
 }
 
 ul {
