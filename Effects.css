@@ -91,7 +91,7 @@ h1 {
 /* Tablet */
 @media screen and (min-width: 760px) and (max-width: 980px){
     body{
-        background-image: url(BGPicture/tablet/TabletDisplay.jpg);
+        background-image: url(BGPicture/mobile/mobileView.jpg);
     }
 }
 
