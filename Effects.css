@@ -2,11 +2,16 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+html { 
+  background: url(officialbackground.jpg) no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 body {
-    background-image:url(officialbackground.jpg);
     margin-left: 0;
 	background-attachment: fixed;
-	background-size: 90% 100%;
 }
 
 #mainbox {
@@ -17,7 +22,9 @@ body {
 	margin: 0;
     color:#B8CBD1;
     border-top-right-radius: 20px;
-	margin-top: 7%;
+	margin-top: 10%;
+	position:absolute;
+	margin-bottom:0%;
 
     
 }
@@ -37,7 +44,7 @@ ul {
 }
 
 h1 {
-    padding-top: 20px
+    padding-top: 40px;
 }
 
 #snoop {
@@ -62,49 +69,14 @@ h1 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color:#B8CBD1;
 }
-#gnome{
-	position:fixed;
-	bottom: 0px;
-	left: 10px;
-}
+
+
 #Background_music {
     display:none;
 	align-content: center;
 }
 
-/* Retina display */
-@media screen and (min-width: 1024px){
-    body{
-        background-image: url(BGPicture/retina/retinadisplay.jpg);
-    }
-	
+#snoop {
+	padding: 4%;
 }
 
-/* Desktop */
-@media screen and (min-width: 980px) and (max-width: 1024px){
-    .body{
-        background-image: url(BGPicture/desktop/DesktopView.jpg);
-    }
-	
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    body{
-        background-image: url(BGPicture/mobile/mobileView.jpg);
-    }
-}
-
-/* Mobile HD */
-@media screen and (min-width: 350px) and (max-width: 760px){
-    body{
-        background-image: url(BGPicture/mobile/mobileView.jpg);
-    }
-}
-
-/* Mobile LD */
-@media screen and (max-width: 350px){
-    body{
-        background-image: url(BGPicture/mobile/mobileView.jpg);
-    }
-} 
