@@ -2,20 +2,16 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-html { 
-  background: url(officialbackground.jpg)  no-repeat center center fixed; !important;  
+body {
+    margin-left: 0;
+	background: transparent url(officialbackground.jpg)  no-repeat center center fixed; !important;  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-	 font-size: 21px;
+	font-size: 21px;
     line-height: 1.52;
 	width: 100%;
     height: 100%;
-}
-
-body {
-    margin-left: 0;
-	background-attachment: fixed;
 }
 
 #mainbox {
