@@ -7,9 +7,9 @@ html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    font-size: 21px;
+	 font-size: 21px;
     line-height: 1.52;
-    width: 100%;
+	width: 100%;
     height: 100%;
 }
 
@@ -20,9 +20,9 @@ body {
 
 #mainbox {
     background-color: rgba(124,94,222,0.6);
-    width: 40%;
+    width: 37%;
     height:auto;
-    padding-left: 3em;
+    padding-left: 2.1em;
 	margin: 0;
     color:#B8CBD1;
     border-top-right-radius: 20px;
